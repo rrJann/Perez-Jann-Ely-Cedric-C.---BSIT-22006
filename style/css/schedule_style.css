@@ -1,0 +1,140 @@
+body {
+
+    padding: 1vh 1vw;
+}
+
+.logout-container {
+
+    justify-content: flex-end;
+}
+
+.main-container {
+
+    padding-inline: 1vw;
+    flex-direction: column;
+}
+
+.sidebar-title {
+
+    color: var(--primary) !important;
+    margin-bottom: 5vh;
+}
+
+.sidebar-links {
+
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.sidebar-link {
+
+    padding: 0.5vh 0.5vw;
+    border-radius: 5px;
+    justify-content: space-between;
+
+    &:hover {
+
+        background-color: var(--background-1);
+    }
+}
+
+.sidebar-logout a {
+
+    width: 100%;
+    text-align: center;
+}
+
+.insert-btn-container {
+
+    justify-content: flex-end;
+}
+
+.insert-btn {
+
+    width: 8vw;
+    height: 4vh;
+}
+
+.act-btn {
+
+    justify-content: space-between;
+}
+
+.title {
+
+    color: var(--primary);
+}
+
+.table-container {
+
+    height: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+th {
+
+    position: sticky;
+    top: 0px;
+}
+
+.form-bg {
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.sec-container {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+
+    width: 30%;
+}
+
+.back-btn {
+
+    margin-bottom: 1vh;
+    color: var(--text-1);
+}
+
+form {
+
+    margin-block: 1vh;
+}
+
+input {
+
+    width: 100%;
+}
+
+.input {
+
+    margin-bottom: 2vh;
+    background-color: var(--background-1);
+    color: var(--text-1);
+}
+
+.view-data {
+
+    margin-block: 1vh;
+    justify-content: space-between;
+}
+
+.text-delete {
+
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+body {
+
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+
+    margin-bottom: 5vh;
+}
+
+.bg-des {
+
+    width: 30%;
+    height: 200%;
+    position: absolute;
+    background-color: var(--background-3);
+    transform: rotateZ(45deg);
+    z-index: -1;
+}
+
+.title {
+
+    font-size: 2em;
+    color: var(--primary);
+    text-align: center;
+}
+
+.form-container {
+
+    width: 30%;
+    padding-bottom: 2vh;
+}
+
+form {
+
+    margin-bottom: 1vh;
+}
+
+input {
+
+    width: 100%;
+}
+
+.input {
+
+    margin-bottom: 1vh;
+    background-color: var(--background-1);
+    color: var(--text-1);
+}
+
+.def-btn {
+
+    padding-block: 1vh;
+}
+
+.sbt-btn {
+
+    margin-top: 2vh;
+}
+
+hr {
+
+    border: 1px solid var(--background-3);
+}
+
+a {
+
+    margin-top: 1vh;
+    text-align: center;
+}

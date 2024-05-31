@@ -1,0 +1,260 @@
+:root {
+
+    --text-1: #ffffff;
+    --text-2: #000000;
+
+    --reg-user: #3dff37;
+    --vip-user: #fcff53;
+    --empl-user: #ff9d2d;
+    --adm-user: #ff2e8f;
+
+    --background-1: #101010;
+    --background-2: #151515;
+    --background-3: #202020;
+
+    --primary: #ce3a27;
+    --secondary: #ffdcdc;
+    --accent: #ff823b;
+
+    --error: #fc0e0e;
+    --warn: #fae41d;
+    --success: #2afa23;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+html {
+
+    height: 100%;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+body {
+
+    height: 100%;
+    background-color: var(--background-1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+
+    width: 100%;
+    padding: 1vh 1vw;
+    background-color: var(--background-2);
+    border-radius: 5px;
+}
+
+menu {
+
+    padding: 1vh 1vw;
+    background-color: var(--background-3);
+    border-radius: 5px;
+    position: absolute;
+    right: 1vw;
+    top: 8vh;
+    z-index: 1;
+    display: none;
+}
+
+main {
+
+    height: 100%;
+    margin-top: 1vh;
+    display: flex;
+    gap: 1vh;
+}
+
+.sidebar {
+
+    width: 20%;
+    padding: 1vh 1vw;
+    background-color: var(--background-2);
+    border-radius: 5px;
+}
+
+.current {
+
+    background-color: var(--background-1);
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+
+.nav-sidebar {
+
+    height: 100%;
+    flex-direction: column;
+}
+
+.container {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1vh;
+}
+
+.box {
+
+    padding: 1vh 1vw;
+    background-color: var(--background-2);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.content {
+
+    height: 100%;
+}
+
+table {
+
+    width: 100%;
+    margin-bottom: 1vh;
+    background-color: var(--background-2);
+    border-collapse: collapse;
+}
+
+th, td {
+
+    padding: 0.5vh 1vw;
+}
+
+th {
+
+    border: 1px solid var(--background-1);
+    background-color: var(--secondary);
+}
+
+td {
+
+    color: var(--text-1);
+    border: 1px solid var(--background-3);
+    box-sizing: border-box;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.text {
+
+    font-size: 1em;
+    color: var(--text-1);
+}
+
+.error {
+
+    color: var(--error);
+}
+
+.warn {
+
+    color: var(--warn);
+}
+
+.success {
+
+    color: var(--success);
+}
+
+.popup {
+
+    width: 20%;
+    padding: 1vh 1vw;
+    background-color: var(--background-3);
+    border-radius: 5px;
+    justify-self: center;
+    align-self: center;
+
+    position: absolute;
+}
+
+.icon {
+
+    width: 1.5vw;
+    height: 100%;
+}
+
+.def-btn {
+
+    padding: 0.5vh 0.5vw;
+    background-color: none;
+    border-radius: 5px;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+
+    &:active {
+
+        transform: translateY(1px);
+    }
+}
+
+.pri-btn {
+
+    background-color: var(--primary);
+    
+    &:hover {
+
+        transform: translateY(-5px);
+    }
+}
+
+.sec-btn {
+
+    background-color: var(--secondary);
+
+    &:hover {
+
+        transform: translateY(-5px);
+    }
+}
+
+.red-btn {
+
+    background-color: var(--error);
+
+    &:hover {
+
+        transform: translateY(-5px);
+    }
+}
+
+.green-btn {
+
+    background-color: var(--success);
+
+    &:hover {
+
+        transform: translateY(-5px);
+    }
+}
+
+.max-size-btn {
+
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.input {
+
+    padding: 1vh 2vh;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
